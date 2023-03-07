@@ -1,58 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+! DOCTYPE html> <html lang="en">
+    <head> <meta charset="UTF-8"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title> </head> <body> <!-- 5. Criar um PROGRAMA EM JAVASCRIPT que leia o um número
+ Caso o usuário digite um número for a desse intervalo, deverá aparecer uma mensagem informando que não existe dia da semana com esse número.  
+  --> <h1>Dias da semana</h1> 
+    <hr> <form action=""> Digite o dia da Semana entre 1 e 7: <br>
+    <input type="text" name="" id="dia">
+    <br> <br> <button onclick="calcular();return false;" >Calcular</button>
+    <input type="reset" value="Limpar Formulário">
+    <br><br />
+    </form> </body>
 </html>
-
-<!--
-    5.criar um programaem JAVASCRIPTQUE LEIA O UM NUMERO INTEIRO ENTRE 1 E 7 E ESCREVA O DIA DA SEMANA CORRESPONDENTE 
-    CASO O NUMERO FORA DESSE INTERVALO,DEVERA APARECER UMA MENSAGEM INFORAMANDO QUE NO EXISTE DIA DA  SEMANA COM ESSE NUMERO
---> 
-<H1> DIAS DA SEMANA </H1>
-<HR> 
-    <FORM ACTION>
-        DIGITE O DIA DA SEMANA ENTRE 1 E 7 : <BR>
-            <INPUT TYPE="TEXT" NAME=""ID="DIA";
-            ><BR>
-                <BUTTTON 
-                ONCLICK="CALCULAR();"RETURN FALSE ;>CALCULAR</BUTTTON>
-                <BR><BR/>
-<INPUT TYPE = "TEXT" NAME=" " ID="DIA"
-
-                </DIV>
-    <INPUT TYPE="RESET " VALUE= "LIMPAR FORMULARIO" >
-        <BR><BR>
-            <BUTTON ONCLICK = "CALCULAR()"; RETURN FALSE ; >CALCULAR<BUTTON> </BUTTON>
-            </BODY>
-            <HTML>
-                <SCRIPT>
-                    FUNCTION CALCULAR(){
-                        var = parselnt(document.geteLEMNTbyld("dia").value);
-                        switch(dia)
-                       // case 1 : alert ("DOMINGO");
-                        // BREAK 
-                      //  CASE 2 : ALERT(segunda");
-                        //BREACK;
-                       // CASE 3 : alert ("terça");
-                        // case 4: alert ("quarta  feira ");
-
-                        // break ;
-                      //  case 6: alert ("SEXTA FEIRA");
-                        // BREACK;
-                       // CASE 7 : ALERT ("SABADO");
-                        //DEFAULT: ALERT ('OPÇAO INVALIDA");
-                       </BREACK>
-                    }
-    {}
-
-</SCRIPT>
-<!--BAIXAR EXTENÇOES GO SERVICE 
-LIVE SERVICE-->
-                    
+<script> function calcular()
+    { var diaj = parseInt(document.getElementById("dia").value);   
+    switch (diaj) { case 1: alert("Domingo");   
+            quebrar;    caso 2: alerta("Segunda-feira");   
+            quebrar;    caso 3: alerta("Terça-feira");
+            quebrar;    caso 3: alerta("Terça-feira");     
+            quebrar;    caso 4: alerta("Quarta-feira");    
+            quebrar;    caso 5: alerta ("Quinta-feira");    
+            quebrar;    caso 6: alerta ("Sexta-feira");     
+            quebrar;    caso 7: alerta("Sábado");  
+            quebrar;  default: alert("opção inválida");  
+            quebrar;    } } </script>
+<!-- baixar extensão go service live service -->
